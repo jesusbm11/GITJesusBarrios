@@ -11,10 +11,26 @@
   </head>
 
   <body>
-    <div class="container">
-      <h1>Hola mundo Jesus Barrios Matas</h1>
+  <div class="container">
+    <!-- The tab headings. -->
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#homer" data-toggle="tab"><span class="glyphicon-ok">Homer</span></a></li>
+      <li><a href="#marge" data-toggle="tab">Marge</a></li>
+      <li><a href="#grandpa" data-toggle="tab">Grandpa</a></li>
+    </ul>
+    <!-- The tab content. -->
+    <div id="my-tab-content" class="tab-content">
+      <div class="tab-pane active" id="homer">
+        <p>Homer Simpson</p>
+      </div>
+      <div class="tab-pane" id="marge">
+        <p>Marge Simpson</p>
+      </div>
+      <div class="tab-pane" id="grandpa">
+        <p>Grandpa Simpson</p>
+      </div>
     </div>
-
+  </div>
     <!-- jQuery -->
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <!-- Latest compiled and minified JavaScript -->
